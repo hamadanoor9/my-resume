@@ -69,11 +69,7 @@ hr {
     padding: 10px;
 }
 
-@media screen and (max-width: 600px){
-    .column {
-        width: 100%;
-    }
-}
+
 
 .welcome {
    width: 60%;
@@ -139,6 +135,10 @@ p #hello {
     .second {
         width: 100%;
         margin-top: 20px;
+    }
+    
+     .column {
+        width: 100%;
     }
    
 }
