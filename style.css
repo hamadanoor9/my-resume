@@ -1,0 +1,169 @@
+body {
+    background-color: #f2f5f9;
+    width: 960;
+}
+
+h1 {
+    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+}
+
+h2 {
+    color: #02a0a1;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    line-height: 42px;
+    font-weight: 600;
+
+}
+
+h3 {
+    color: #333333;
+     font-family: 'Hind', sans-serif;
+     font-size: 22px;
+     line-height: 30px;
+     font-weight: 600;
+
+     
+}
+
+p {
+ font-family: 'Hind', sans-serif;
+}
+
+
+
+.boxes {
+    
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 70%;
+    box-shadow: 4px 4px 24px rgba(0,0,0,0.04);
+}
+
+
+.boxes h1 {
+    text-transform: uppercase;
+}
+
+hr {
+    display: block;
+    border-style: inset;
+    border-width: 1px;
+    margin-top: 10px;
+    background-color:  #02a0a1;
+    
+}
+
+*  {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+    .column {
+        width: 100%;
+    }
+}
+
+.welcome {
+   width: 60%;
+    
+}
+
+.info  {
+   
+  width: 40%;
+}
+
+.clear-fix {
+    clear: both;
+}
+
+p #hello {
+    color: #02a0a1;
+    font-weight: bold;
+}
+
+.first {
+    position: relative;
+    width: 40%;
+    margin: 0 auto;
+    
+    background-color: #f2f5f9;
+}
+
+.second {
+     position: relative;
+    width: 40%;
+    margin: 0 auto;
+    
+    background-color: #f2f5f9;
+    float: right;
+}
+
+
+
+
+
+.header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    margin-top: 0px;
+    background-color: #02a0a1;
+    padding: 0px;
+    height: 40px;
+} 
+
+
+
+
+@media screen and (max-width: 1020px){
+   
+    
+    .first {
+        width: 100%;
+    }
+    
+    .second {
+        width: 100%;
+        margin-top: 20px;
+    }
+   
+}
+
+
+.header p {
+    text-align: center;
+    height: 40px;
+    margin: 0px;
+    padding-top: 10px;
+    color: #ffffff;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.experience h3 {
+    margin-top: 20px;
+}
+
+.experience .text1 {
+    color: #02a0a1;
+    margin-top: -20px;
+}
+
+
+
