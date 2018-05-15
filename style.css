@@ -34,7 +34,70 @@ p {
  font-family: 'Hind', sans-serif;
 }
 
+.intro-box {
+    background-image: url("background.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 0 auto;
+    width: 70%;
+    height: 540px;
+}
 
+.inside-box {
+    float: left;
+    margin-left: 0px;
+    height: 540px;
+    background-color: #02a0a1;
+    width: 35%;
+}
+
+.triangle {
+    float: left;
+     
+     border-top: 270px solid transparent;
+     border-left: 150px solid #02a0a1;
+     border-bottom: 270px solid transparent;
+}
+
+.greeting p{
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 80px;
+    margin-bottom: 0px;
+}
+
+.greeting{
+    margin-left: 20px;
+    margin-top: -40px;
+    padding-bottom: 0px;
+}
+
+#my-title {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+#hi {
+    background-color: #000000;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.boxe1 {
+    
+    background-color: #ffffff;
+    padding: 40px;
+    margin: 0 auto;
+    
+    width: 70%;
+    box-shadow: 4px 4px 24px rgba(0,0,0,0.04);
+}
 
 .boxes {
     
@@ -51,14 +114,7 @@ p {
     text-transform: uppercase;
 }
 
-hr {
-    display: block;
-    border-style: inset;
-    border-width: 1px;
-    margin-top: 10px;
-    background-color:  #02a0a1;
-    
-}
+
 
 *  {
     box-sizing: border-box;
@@ -107,7 +163,24 @@ p #hello {
     float: right;
 }
 
+.strip {
+     border-left: 2px solid #02a0a1;
+    border-bottom: 2px dotted #c5c5c5;
+    padding: 5px;
+}
 
+.left {
+    width: 60%;
+   
+}
+
+.right {
+    width: 40%;
+}
+
+.no-bottom-border {
+    border-bottom: none;
+}
 
 
 
@@ -164,6 +237,44 @@ p #hello {
     color: #02a0a1;
     margin-top: -20px;
 }
+
+.line {
+    border: 1.5px solid #02a0a1;
+}
+
+.contact {
+    position: relative;
+}
+
+
+.contact img{
+    border: 2px solid #02a0a1;
+    border-radius: 24px;
+    padding: 3px;
+    
+}
+
+.icon {
+    text-align: center;
+    margin: 0 auto;
+    width: 33%;
+}
+
+.icon p{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.contact {
+    margin: 0 auto;
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
 
 
 
